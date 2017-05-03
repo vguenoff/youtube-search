@@ -1,0 +1,26 @@
+.SearchBar {
+  margin: 20px;
+  text-align: center;
+  input {
+    width: 75%;
+  }
+}
+.VideoListItem {
+  margin: 10px;
+  cursor: pointer;
+  list-style: none;
+  img {
+    max-width: 64px;
+  }
+}
+.VideoListItem:hover {
+  background: #eee;
+}
+.VideoDetail {
+  .details {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+}
